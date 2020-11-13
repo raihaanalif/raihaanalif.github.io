@@ -1,0 +1,41 @@
+@media(max-width: 670px){
+    #about{
+        justify-content: center;
+        padding-top: 0px;
+    }
+    .contact-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height: 80px;
+    }
+    .input, .msg{
+        width: 100%;
+    }
+    #home img{
+        height: 25%;
+        width: 30%;
+        margin-top: 250px;
+        margin-right: 50px;
+    }
+    .about-me .title{
+        font-size: 4rem;
+    }
+    .detail{
+        width: 90%;
+    }
+    .about-model{
+        display: none;
+    }
+    .skill-menu{
+        width: 500px;
+    }
+    .name{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .navbar-menu{
+        display: none;
+    }
+}
