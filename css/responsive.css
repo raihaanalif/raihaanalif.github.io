@@ -31,10 +31,11 @@
         display: none;
     }
     .skill-menu{
-        width: 400px;
+        width: 350px;
     }
     .name{
         text-align: center;
+        width: 90%;
     }
     .navbar-menu{
         display: none;
