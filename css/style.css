@@ -403,7 +403,7 @@ a{
     cursor: pointer;
     text-transform: uppercase;
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 800px){
     #about{
         justify-content: center;
         padding-top: 0px;
@@ -411,6 +411,9 @@ a{
     #home{
        justify-content: center;
        align-items: center;
+    }
+    #contact{
+       height: 100%;
     }
     .contact-form{
         flex-direction: column;
