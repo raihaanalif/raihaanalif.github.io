@@ -403,3 +403,51 @@ a{
     cursor: pointer;
     text-transform: uppercase;
 }
+@media screen and (max-width: 780px){
+    #about{
+        justify-content: center;
+        padding-top: 0px;
+    }
+    #home{
+       justify-content: center;
+       align-items: center;
+    }
+    .contact-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height: 80px;
+    }
+    .input, .msg{
+        width: 100%;
+    }
+    #home img{
+        height: 24%;
+        width: 35%;
+        margin-top: 250px;
+        align-content: center;
+    }
+    .about-me .title{
+        font-size: 4rem;
+    }
+    .detail{
+        width: 90%;
+    }
+    .about-model{
+        display: none;
+    }
+    .skill-menu{
+        width: 350px;
+        justify-content: center;
+    }
+    .name{
+        text-align: center;
+    }
+    .navbar-menu{
+        display: none;
+    }
+    .contact-btn{
+        width: 100%;
+    }
+}
+
