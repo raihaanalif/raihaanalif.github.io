@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins';
+    }
+mark {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #7efff5 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    }
+
+@-webkit-keyframes highlight {
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes highlight {
+    to {
+        background-position: 0 0;
+    }
+}
+
+
+#about button{
+    cursor: default;
+}
+form ::placeholder{
+    color: #c4c4c4;
+    opacity: 1;
+}
+
+footer li ul a{
+    color: #c4c4c4
+}
+
+footer li ul a:hover{
+    color: #292929;
+}
+    
